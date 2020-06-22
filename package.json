@@ -1,0 +1,26 @@
+{
+  "name": "lifeintheuk-question-scraper",
+  "version": "1.0.0",
+  "description": "A scraper for the https://lifeintheuktests.co.uk/life-in-the-uk-test website to extract all the questions so I can build one large question bank.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaciraolo/lifeintheuk-question-scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaciraolo/lifeintheuk-question-scraper/issues"
+  },
+  "homepage": "https://github.com/lucaciraolo/lifeintheuk-question-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cli-progress": "^3.8.2",
+    "colors": "^1.4.0",
+    "puppeteer": "^4.0.0",
+    "winston": "^3.3.1"
+  }
+}
